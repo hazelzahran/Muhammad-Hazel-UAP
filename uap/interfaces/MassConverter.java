@@ -1,5 +1,5 @@
 package uap.interfaces;
 
-public class MassConverter {
-    
+public interface MassConverter {
+    int convertToKg(); // dibulatkan ke atas
 }

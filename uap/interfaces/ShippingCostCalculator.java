@@ -1,5 +1,5 @@
 package uap.interfaces;
-// ShippingCostCalculator.java
+
 public interface ShippingCostCalculator {
-    int calculateShippingCost(Shape shape);
+    int getShippingCost(); // per kg × 5000
 }

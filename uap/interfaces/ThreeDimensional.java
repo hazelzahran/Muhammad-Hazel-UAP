@@ -1,5 +1,6 @@
 package uap.interfaces;
 
-public class ThreeDimensional {
-    
+public interface ThreeDimensional {
+    double getVolume();
+    double getSurfaceArea();
 }

@@ -1,5 +1,5 @@
 package uap.interfaces;
 
-public class MassCalculable {
-    
+public interface MassCalculable {
+    double getMass(); // gram
 }

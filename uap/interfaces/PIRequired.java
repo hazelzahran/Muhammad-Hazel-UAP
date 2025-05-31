@@ -1,5 +1,5 @@
 package uap.interfaces;
 
-public class PIRequired {
-    
+public interface PIRequired {
+    double PI = 22.0 / 7.0;
 }

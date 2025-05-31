@@ -1,13 +1,9 @@
 package uap.bases;
-// Shape.java
-public abstract class Shape {
-    protected double density = 0.65; // g/cm^3
-    protected double thickness = 0.5; // cm
 
-    public abstract double getVolume();
-    public abstract double getSurfaceArea();
+import uap.interfaces.*;
 
-    public double getMass() {
-        return getVolume() * density; // dalam gram
-    }
+public abstract class Shape implements ThreeDimensional, MassCalculable, MassConverter, ShippingCostCalculator, PIRequired {
+    protected static final double DENSITY = 8.0; // gram/cm3
+    protected static final double THICKNESS = 0.5; // cm
+    public abstract void printInfo();
 }
